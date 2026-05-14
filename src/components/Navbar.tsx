@@ -24,6 +24,7 @@ const Navbar = () => {
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
+        
           {links.map((l) => (
             <NavLink
               key={l.to}
