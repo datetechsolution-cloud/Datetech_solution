@@ -2,6 +2,7 @@ import { Code2, Globe, Smartphone, ShoppingCart, Search, Wrench } from "lucide-r
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
+import { Helmet } from "react-helmet-async"
 
 const services = [
   { icon: Globe, title: "Business Websites", desc: "Marketing sites, brand sites, and landing pages designed to convert.", points: ["Custom design", "SEO foundations", "CMS option"] },
